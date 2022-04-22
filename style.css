@@ -1,0 +1,242 @@
+@font-face {
+  font-family: montserrat;
+  src: url("fonts/Montserrat.ttf");
+}
+
+@font-face {
+  font-family: montserratbold;
+  src: url("fonts/Montserratbold.ttf");
+}
+
+html {
+  width: 576px;
+}
+
+body {
+  font-family: montserrat, times, arial;
+  background-color: #eff0e8;
+  border: none;
+  margin: 0;
+  margin-bottom: 50px;
+}
+
+#menu {
+  height: 73px;
+  width: 100%;
+  background-color: #11c76f;
+  display: grid;
+  grid-template-columns: 1fr 200px;
+  grid-gap: 150px;
+  position: sticky;
+  top: 0;
+}
+
+#sanduba {
+  display: block;
+  margin: auto;
+  margin-right: 30px;
+  width: 70px;
+}
+
+#sanduba:hover,
+#logo:hover {
+  cursor: pointer;
+}
+
+#fixedbutton {
+  height: 60px;
+  width: 100%;
+  background-color: #11c76f;
+  padding-top: 10px;
+  position: fixed;
+  bottom: 0;
+  margin: 0 auto;
+}
+
+#fixeddowload {
+  margin: 0 auto;
+  padding: 16px 24px;
+  font-weight: bold;
+  font-size: 16px;
+}
+
+#iza {
+  margin-top: 0;
+}
+
+#logo {
+  width: 120px;
+  margin: auto;
+  margin-left: 40px;
+  display: block;
+}
+
+.fullscreenimage {
+  width: 100%;
+  display: block;
+  margin: 0 auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+#caixa1 {
+  background-color: #eff0e8;
+  padding-top: 0;
+  align-items: center;
+}
+
+.caixabranca {
+  background-color: #ffffff;
+  padding: 20px 0 20px 0;
+}
+
+.caixacinza {
+  background-color: #eff0e8;
+  padding: 20px 0 20px 0;
+}
+
+#titulo1 {
+  text-align: center;
+  display: block;
+  margin: 0 20px;
+}
+
+h2 {
+  font-family: montserratbold, times, arial;
+}
+
+h3 {
+  text-align: center;
+  display: block;
+  margin: 0 auto;
+  color: #11c76f;
+  font-weight: bolder;
+  font-size: 24px;
+  font-weight: 800;
+  font-family: montserratbold, times, arial;
+}
+
+h4 {
+  text-align: center;
+  display: block;
+  margin: 0 auto;
+  font-weight: 800;
+  font-family: montserratbold, times, arial;
+}
+
+.round {
+  background-color: #cccccc;
+  display: block;
+  width: 16px;
+  height: 16px;
+  border-radius: 100%;
+  margin: 0;
+  margin: 0 auto;
+  color: rgba(0, 0, 0, 0);
+}
+
+#rounds {
+  /* display: grid;
+  grid-template-columns: 20px 20px 20px 20px;
+  grid-gap: 20px; */
+  display: flex;
+  margin: 30px auto 50px auto;
+  height: 20px;
+  width: 140px;
+}
+
+.text {
+  text-align: center;
+  margin: 10px 55px 10px 55px;
+  font-size: 18px;
+}
+
+.button {
+  white-space: nowrap;
+  text-align: center;
+  width: min-content;
+  width: max-content;
+  border-radius: 10px;
+  padding: 10px 20px 10px 20px;
+  background-color: #426dff;
+  color: white;
+  display: block;
+  margin: 20px auto;
+}
+
+.bottomlessbutton {
+  background: none;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #426dff;
+  color: #426dff;
+}
+
+.button:hover {
+  background-color: #3457ca;
+  cursor: pointer;
+}
+
+#pjimg,
+#pproimg {
+  margin: 10px auto;
+  display: block;
+}
+
+#realfooter {
+  background-color: #11c76f;
+  padding: 40px 10px 20px 20px;
+  color: white;
+  font-size: 18px;
+}
+
+#realfooter p {
+  font-weight: bold;
+}
+
+#footerlinks {
+  line-height: 40px;
+  margin-top: 30px;
+}
+
+#footerlinks a:hover {
+  cursor: pointer;
+  opacity: 70%;
+}
+
+#realfooter span {
+  display: block;
+  margin: 0 auto;
+  font-size: 12px;
+  min-width: min-content;
+  max-width: max-content;
+}
+
+#logo2 {
+  width: 50%;
+  display: block;
+  margin: 0 auto;
+}
+
+#redessociais {
+  display: block;
+  margin: 0 auto;
+  min-width: min-content;
+  max-width: max-content;
+}
+
+.social:hover {
+  cursor: pointer;
+  opacity: 80%;
+}
+
+#stores {
+  display: block;
+  margin: 50px auto 40px auto;
+  min-width: min-content;
+  max-width: max-content;
+}
+
+.dlstore {
+  width: 170px;
+}
